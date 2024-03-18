@@ -11,11 +11,12 @@ import SwiftUI
 struct TestVisionOS_XCodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            SwiftUIView()
         }
 
-        ImmersiveSpace(id: "ImmersiveSpace") {
+        /*ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
-        }
+        }*/
     }
 }

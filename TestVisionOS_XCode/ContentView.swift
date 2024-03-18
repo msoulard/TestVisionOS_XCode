@@ -19,6 +19,9 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            Model3D(named: "toy_biplane_idle", bundle: realityKitContentBundle)
+                .padding(.bottom, 50)
+            
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
 

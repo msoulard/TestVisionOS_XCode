@@ -14,6 +14,7 @@
 		5F2BD35E2BA8441E00A145C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2BD35D2BA8441E00A145C5 /* Assets.xcassets */; };
 		5F2BD3612BA8441E00A145C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2BD3602BA8441E00A145C5 /* Preview Assets.xcassets */; };
 		5F2BD36C2BA8441E00A145C5 /* TestVisionOS_XCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BD36B2BA8441E00A145C5 /* TestVisionOS_XCodeTests.swift */; };
+		5F2BD3762BA8451A00A145C5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2BD3752BA8451A00A145C5 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		5F2BD3622BA8441E00A145C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F2BD3672BA8441E00A145C5 /* TestVisionOS_XCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestVisionOS_XCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2BD36B2BA8441E00A145C5 /* TestVisionOS_XCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVisionOS_XCodeTests.swift; sourceTree = "<group>"; };
+		5F2BD3752BA8451A00A145C5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5F2BD3572BA8441D00A145C5 /* TestVisionOS_XCodeApp.swift */,
 				5F2BD3592BA8441D00A145C5 /* ContentView.swift */,
 				5F2BD35B2BA8441D00A145C5 /* ImmersiveView.swift */,
+				5F2BD3752BA8451A00A145C5 /* SwiftUIView.swift */,
 				5F2BD35D2BA8441E00A145C5 /* Assets.xcassets */,
 				5F2BD3622BA8441E00A145C5 /* Info.plist */,
 				5F2BD35F2BA8441E00A145C5 /* Preview Content */,
@@ -219,6 +222,7 @@
 			files = (
 				5F2BD35A2BA8441D00A145C5 /* ContentView.swift in Sources */,
 				5F2BD3582BA8441D00A145C5 /* TestVisionOS_XCodeApp.swift in Sources */,
+				5F2BD3762BA8451A00A145C5 /* SwiftUIView.swift in Sources */,
 				5F2BD35C2BA8441D00A145C5 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
