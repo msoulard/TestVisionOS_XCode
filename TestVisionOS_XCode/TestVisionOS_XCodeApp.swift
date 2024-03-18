@@ -10,10 +10,10 @@ import SwiftUI
 @main
 struct TestVisionOS_XCodeApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup{
             //ContentView()
             SwiftUIView()
-        }
+        }.windowStyle(.plain)
 
         /*ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
